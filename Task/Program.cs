@@ -19,3 +19,20 @@ string[] Collection(int elements)
     }
     return mainarray;
 }
+
+string[] NewCollection(string[] array, string[] newarray)
+{
+    int j = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+
+        if (array[i].Length <= numberofcharacters)
+        {
+            newarray[j] = array[i];
+            j++;
+        }
+    }
+
+
+    return newarray;
+}
