@@ -60,3 +60,7 @@ void PrintArrays()
 
 
 }
+
+Collection(arraysize);
+NewCollection(mainarray, resultarray);
+PrintArrays();
